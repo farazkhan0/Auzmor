@@ -45,9 +45,9 @@ h3{
 
 h4{
     color:var(--grey);
-    font-size: 0.075 rem;
+    font-size: 0.075rem;
     font-weight: 700;
-    margin-bottom: 0.5 rem;
+    margin-bottom: 0.5rem;
 }
 
 .greeting .title input{
@@ -58,20 +58,20 @@ h4{
 
 .greeting .title input, .greeting .title{
     color: var(--dark);
-    font-size: 1.5 rem;
+    font-size: 1.5rem;
     font-weight: 700;
 }
 
 .create-todo input[type="text"]{
     display : block;
     width :100%;
-    font-size:1.125 rem;
-    padding : 1 rem 1.5 rem;
+    font-size:1.125rem;
+    padding : 1rem 1.5rem;
     color: var(--dark);
     background-color: #fff;
-    border-radius:0.5 rem;
+    border-radius:0.5rem;
     box-shadow: var(--shadow);
-    margin-bottom: 1.5 rem;
+    margin-bottom: 1.5rem;
 }
 
 .create-todo .options label{
@@ -81,7 +81,7 @@ h4{
     justify-content: center;
     padding: 1.5rem;
     background-color: #fff;
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     box-shadow: var(--shadow) ;
     color: pointer;
 }
@@ -132,18 +132,18 @@ input:checked~ .bubble::after{
 
 .create-todo .options label div{
     color: var(--dark);
-    font-size: 1.125 rem;
-    margin-top: 1 rem;
+    font-size: 1.125rem;
+    margin-top: 1rem;
 }
 
 .create-todo input[type="submit"]{
     display: block;
     width: 100%;
-    font-size: 1.125 rem;
-    padding: 1rem 1.5 rem;
+    font-size: 1.125rem;
+    padding: 1rem 1.5rem;
     color: #fff;
     background-color: var(--primary);
-    border-radius: 0.5 rem;
+    border-radius: 0.5rem;
     box-shadow: var(--personal-glow);
     cursor: pointer;
     transition: 0.2 ease-in-out;
@@ -169,7 +169,7 @@ input:checked~ .bubble::after{
 
 .todo-item label{
     display: block;
-    margin-right: 1 rem;
+    margin-right: 1rem;
     cursor: pointer;
 }
 
@@ -179,7 +179,7 @@ input:checked~ .bubble::after{
 
 .todo-item .todo-content input{
     color:var(--dark);
-    font-size: 1.125 rem;
+    font-size: 1.125rem;
 }
 
 .todo-item .actions{
@@ -189,7 +189,7 @@ input:checked~ .bubble::after{
 
 .todo-item .actions button{
     display: block;
-    padding: 0.5 rem;
+    padding: 0.5rem;
     border-radius: 0.25;
     color: #fff;
     cursor: pointer;
@@ -201,7 +201,7 @@ input:checked~ .bubble::after{
 }
 
 .todo-item .actions .edit{
-    margin-right: 0.5 rem ;
+    margin-right: 0.5rem ;
     background-color: var(--primary);
 }
 
