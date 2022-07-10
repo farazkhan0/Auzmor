@@ -19,3 +19,11 @@
 end
 
 puts factorial2(5)
+
+def factorial3(number)
+    (1..number).reduce(:x)
+end
+
+def factorial4(number)
+    number.downto(1).reduce(:x)
+end
