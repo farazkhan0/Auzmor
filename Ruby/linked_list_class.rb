@@ -75,6 +75,26 @@ class LinkedList
         end
     end
 
+    def find(value)
+        node = self.head
+        while(node != nil)
+            if(node.value == value)
+                return true
+            end
+            node = node.nextNode
+        end
+        return false
+    end
+
+    #addfirst
+    def prepend(value)
+        if(head==nil)
+            self.head =Node.new(value,nil)
+        end
+        old_head = head
+        head = Node.new(value,old_head)
+    end
+
     private 
 
     class Node
@@ -88,11 +108,15 @@ class LinkedList
 
 end
 
+# li = LinkedList.new
+# li.add(10)
+# li.add(20)
+# puts li.head.value
+# puts li.head.nextNode.value
+# puts li.find(20)  
+
 li = LinkedList.new
-li.add(10)
-li.add(20)
+li.prepend(10)
+li.prepend(20)
+
 puts li.head.value
-puts li.head.nextNode.value
-
-
-                                
