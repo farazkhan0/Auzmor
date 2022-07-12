@@ -12,11 +12,11 @@ dial_book = {
   }
    
   def get_city_names(somehash)
-    somehash.keys
+    return somehash.keys
   end
    
   def get_area_code(somehash, key)
-    somehash[key]
+    return somehash[key]
   end
    
   loop do
