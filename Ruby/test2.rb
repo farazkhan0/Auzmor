@@ -17,7 +17,7 @@ def findSmallestInterval(arr)
     end
     return ans
 end
-  
+   
 
 
 arr =[6,35,8,78,23,76].shuffle
